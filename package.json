@@ -1,0 +1,27 @@
+{
+  "name": "karmabot",
+  "version": "1.0.0",
+  "description": "A telegram bot about your karma",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/index.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "sentiment",
+    "karma"
+  ],
+  "author": "Adriano Grimaldi",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/node": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "sentiment": "^5.0.2",
+    "telebot": "^1.4.1"
+  }
+}
