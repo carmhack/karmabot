@@ -1,7 +1,7 @@
 const TeleBot = require('telebot');
 const Sentiment = require('sentiment');
 
-const bot = new TeleBot('1193073527:AAEdIyjB9tmXanToC82TXcnJar5pda3-B70');
+const bot = new TeleBot('YOUR_TOKEN');
 const sentiment = new Sentiment();
 const API = 'https://thecatapi.com/api/images/get?format=src&type=gif#';
 
